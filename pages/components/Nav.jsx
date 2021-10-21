@@ -2,8 +2,18 @@ import React from 'react'
 
 function Nav() {
     return (
-    <nav className="flex justify-between mt-2 mb-2 items-center " >
+
+    <nav className="flex justify-between bg-white z-20 sticky top-0 right-0 mt-2 mb-2  items-center " >
+        
             <div className="md:text-4xl text-3xl ml-4  ">Diana<span className="text-red-400">.</span></div>
+            <div className="hidden md:flex ">
+                <a href="#home" className=" cursor-pointer hover:text-green-400 transition duration-300   mr-3 text-lg text-gray-700" >Home</a>
+                <a href="#service" className=" cursor-pointer hover:text-green-400 transition duration-300  mr-3 text-lg text-gray-700" >Service</a>
+                <a href="#workingEx" className=" cursor-pointer hover:text-green-400 transition duration-300  mr-3 text-lg text-gray-700" >Experience</a>
+                <a href="#projects" className=" cursor-pointer hover:text-green-400 transition duration-300  mr-3 text-lg text-gray-700">Projects</a>
+                <a href="#testimonial"className=" cursor-pointer hover:text-green-400 transition duration-300  mr-3 text-lg text-gray-700">Testimonials</a>
+                <a href="#contact" className=" cursor-pointer hover:text-green-400 transition duration-300  text-lg text-gray-700">Contact</a>
+            </div>
             <div className="flex flex-col md:flex-row text-xs md:text-sm mr-2 ">
                 <div className="flex items-center  " >
                     <span className="mr-2">
@@ -24,6 +34,7 @@ function Nav() {
                 </div>
             </div>
     </nav>
+
     )
 }
 

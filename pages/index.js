@@ -15,12 +15,24 @@ export default function Home() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Nav/>
-      <Hero/>
-      <Services/>
-      <WorkingEx/>
-      <Projects/>
-      <Testimonials/>
-      <Contacts/>
+      <div id="home">
+        <Hero/>
+      </div>
+      <div id="service">
+        <Services />
+      </div>
+      <div id="workingEx">
+        <WorkingEx/>
+      </div>
+      <div id="projects">
+        <Projects/>
+      </div>
+      <div id="testimonial">
+        <Testimonials/>
+      </div>
+      <div id="contact">
+        <Contacts/>
+      </div>
     </div>
   )
 }

@@ -9,7 +9,7 @@ function Hero() {
   const titleRef = useRef();
   
   useEffect(() => {
-    //init(titleRef.current, { showCursor: false, strings: ['UI/UX Designer !', 'App Developer !' ] })
+    init(titleRef.current, { showCursor: false, strings: ['UI/UX Designer !', 'App Developer !' ] })
 
   },[])
 
@@ -27,9 +27,9 @@ function Hero() {
               <div className="flex-1 flex flex-col justify-center content-center h-full ">
                 <h4 className="text-gray-700 text-2xl mb-1 mt-10 text-center md:text-4xl">I am</h4>
                 
-                <h1 className=" text-gray-700 text-4xl mb-1 text-center md:text-8xl font-medium" >Dina Gomz</h1>
+                <h1 className=" text-gray-700 text-4xl mb-1 text-center md:text-7xl font-medium" >Diana Gomz</h1>
                 
-                <h4 className="text-gray-700 text-2xl mb-10 text-center md:text-4xl">UI/UX Designer</h4>
+                <h4 ref={titleRef} className="text-gray-700 h-1 text-2xl mb-10 text-center md:text-4xl"></h4>
               </div>
               </div>   
           </div>
