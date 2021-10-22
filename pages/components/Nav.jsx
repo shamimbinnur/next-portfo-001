@@ -14,7 +14,7 @@ function Nav() {
                 <a href="#testimonial"className=" cursor-pointer hover:text-green-400 transition duration-300  mr-3 text-lg text-gray-700">Testimonials</a>
                 <a href="#contact" className=" cursor-pointer hover:text-green-400 transition duration-300  text-lg text-gray-700">Contact</a>
             </div>
-            <div className="flex flex-col md:flex-row text-xs md:text-sm mr-2 ">
+            <div className="flex flex-col md:flex-row text-xs md:text-sm mr-5 ">
                 <div className="flex items-center  " >
                     <span className="mr-2">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 md:h-5 md:w-5" viewBox="0 0 20 20" fill="currentColor">

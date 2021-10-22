@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 function Services() {
     return (
-        <section  className="bg-gradient-to-r from-blue-50   to-blue-100">
+        <section  className="bg-gradient-to-r from-blue-50 border-b-2 border-purple-400   to-blue-100">
           <div className="container mx-auto flex flex-col md:flex-row items-center justify-center h-screen">
             <div className="m-2 ">
               <h2 className="text-2xl">

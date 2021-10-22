@@ -14,13 +14,14 @@ function Hero() {
   },[])
 
     return (
-        <section  className=" bg-gradient-to-r from-green-400  to-blue-100 ">
+        <section  className=" bg-gradient-to-r border-b-2 border-purple-400 from-green-400  to-blue-100 ">
           <div className=" h-screen container  mx-auto">
               <div className="flex h-full flex-col-reverse md:flex-row">
                 
               <div className=" flex-2 h-full">
-                <div className="flex overflow-hidden h-full ">
-                  <Image className="object-cover" src={Me}></Image>
+                <div className="flex overflow-hidden h-full  ">
+                  <Image  className="object-cover  " src={Me}></Image>
+                  <img src={Me} alt="" />
                 
                 </div>
               </div>

@@ -12,7 +12,7 @@ import UI7 from "../../public/img/ui07.jpg"
 
 function Projects() {
     return (
-        <section className="bg-gradient-to-r from-blue-200   to-blue-100">
+        <section className="bg-gradient-to-r from-blue-200 border-b-2 border-purple-400   to-blue-100">
             <div className="min-h-screen container pb-10 mx-auto">
                 <div className=" flex items-center justify-center pt-20 pb-20 ">
                     <span>
@@ -24,7 +24,7 @@ function Projects() {
 
 
                 </div>
-                <div className="grid md:grid-cols-3 lg:grid-cols-4 ml-2 mr-2 gap-2 md:gap-4 ">
+                <div className="grid md:grid-cols-3 lg:grid-cols-4 ml-4 mr-4 gap-2 md:gap-4 ">
                     <div className="w-92 mb-3 h-52 flex justify-center  items-center relative overflow-hidden bg-white shadow-md ring-purple-200 hover:ring-4 ring-2 rounded-md ">
                         <Image  src={UI2}></Image>
                         <div className=" absolute opacity-0 hover:opacity-100 transition ease-in duration-200  hover:show cursor-pointer text-gray-700 font-bold text-3xl backdrop-filter backdrop-blur-lg text-center pt-28 pb-28 w-full " >Project 01</div>

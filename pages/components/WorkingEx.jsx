@@ -4,14 +4,14 @@ import Exp from "../../public/img/exp.svg"
 
 function WorkingEx() {
     return (
-        <section  className="bg-gradient-to-r from-blue-100   to-blue-50">
+        <section  className="bg-gradient-to-r from-blue-100 border-b-2 border-purple-400   to-blue-50">
           <div className="container mx-auto flex flex-col md:flex-row-reverse items-center justify-center min-h-screen">
             <div className="m-2 ">
-              <h2 className="text-2xl"> 
+                <h2 className="text-2xl"> 
                 <span className="inline-block mr-3">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-  <path d="M5 4a2 2 0 012-2h6a2 2 0 012 2v14l-5-2.5L5 18V4z" />
-</svg>
+                <path d="M5 4a2 2 0 012-2h6a2 2 0 012 2v14l-5-2.5L5 18V4z" />
+                </svg>
                 </span>
                 Working Experience ?
                 </h2>

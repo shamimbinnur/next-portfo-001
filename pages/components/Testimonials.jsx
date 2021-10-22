@@ -4,7 +4,7 @@ import Image from "next/image"
 
 function Testimonials() {
     return (
-        <section className="bg-gradient-to-r from-purple-100   to-purple-300">
+        <section className="bg-gradient-to-r from-purple-100 border-b-2 border-purple-400  to-purple-300">
             <div className="min-h-screen container mx-auto">
                 <div className=" flex items-center justify-center " >
                     <span>
